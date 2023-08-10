@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "question": "How often should I visit the dentist for a check-up?",
+      "answer": "It is generally recommended to visit the dentist for a check-up every six months. Regular dental check-ups help maintain oral health and detect any potential issues early."
+    },
+    {
+      "id": 1,
+      "question": "What is the importance of regular teeth cleanings?",
+      "answer": "Regular teeth cleanings, also known as dental cleanings or prophylaxis, are crucial for maintaining good oral hygiene. They help remove plaque, tartar, and stains from your teeth, reducing the risk of cavities, gum disease, and other dental problems."
+    },
+    {
+      "id": 2,
+      "question": "What are the signs and symptoms of gum disease?",
+      "answer": "Common signs and symptoms of gum disease include red, swollen, or bleeding gums, persistent bad breath, receding gums, loose teeth, and changes in bite or jaw alignment. If you experience any of these symptoms, it's important to schedule a dental appointment for evaluation and treatment."
+    },
+    {
+      "id": 3,
+      "question": "What are the options for replacing missing teeth?",
+      "answer": "There are several options for replacing missing teeth, including dental implants, bridges, and dentures. The most suitable option depends on various factors, such as the number of missing teeth, jawbone health, and personal preferences. Your dentist can assess your specific situation and recommend the best solution."
+    },
+    {
+      "id": 4,
+      "question": "How can I maintain good oral hygiene at home?",
+      "answer": "To maintain good oral hygiene, it is important to brush your teeth at least twice a day using a fluoride toothpaste, floss daily to remove plaque and food particles from between teeth, and rinse with an antimicrobial mouthwash. Additionally, limit sugary and acidic foods and drinks, and visit your dentist regularly for professional cleanings and check-ups."
+    },
+    {
+      "id": 5,
+      "question": "What can I do to alleviate dental anxiety?",
+      "answer": "Dental anxiety is common, and there are strategies to help alleviate it. Communication with your dentist about your concerns can be helpful. You may also consider relaxation techniques such as deep breathing exercises, listening to calming music, or using distraction methods during the dental procedure. In some cases, your dentist may offer sedation options to help you feel more comfortable."
+    },
+    {
+      "id": 6,
+      "question": "How can I improve the appearance of my smile?",
+      "answer": "There are various cosmetic dental treatments available to enhance your smile, such as teeth whitening, dental veneers, dental bonding, and orthodontic treatments like braces or clear aligners. A consultation with your dentist can help determine the most suitable treatment options to achieve your desired smile."
+    }
+  ]
+}

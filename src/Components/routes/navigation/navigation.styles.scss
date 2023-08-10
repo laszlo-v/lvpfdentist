@@ -1,0 +1,124 @@
+.navigation {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 2;
+  height: 4rem;
+  width: 100%;
+
+  .nav-links-container-show {
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0 0.2rem;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 95, 0);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    z-index: 1;
+    margin-top: 4rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+    @media (min-width: 48rem) {
+      width: calc(100% - 10rem);
+      margin: 0 auto;
+      height: 4rem;
+      line-height: 4rem;
+    }
+
+    a {
+      font-size: clamp(1rem, 2vw + 0.1rem, 1.4rem);
+      text-decoration: none;
+    }
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  .hide {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transform: translateY(-22rem);
+    -webkit-transform: translateY(-22rem);
+    -moz-transform: translateY(-22rem);
+    -ms-transform: translateY(-22rem);
+    -o-transform: translateY(-22rem);
+    @media (min-width: 48rem) {
+      width: calc(100% - 10rem);
+      margin: 0 auto;
+      height: 4rem;
+      line-height: 4rem;
+    }
+  }
+  .logo-container {
+    position: absolute;
+    padding: 0.2rem;
+    top: 0.5rem;
+    left: 1rem;
+    z-index: 2;
+  }
+  .hamburger-container {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+    &:hover {
+      cursor: pointer;
+      .line-1 {
+        width: 3rem;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+      }
+      .line-3 {
+        width: 3rem;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+      }
+    }
+  }
+  .line {
+    width: 3rem;
+    height: 0.1rem;
+    background-color: orangered;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  }
+  .line-1 {
+    width: 2rem;
+  }
+  .line-2 {
+    height: 0.2rem;
+  }
+  .line-3 {
+    width: 2rem;
+  }
+}

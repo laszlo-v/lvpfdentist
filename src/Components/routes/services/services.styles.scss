@@ -1,0 +1,65 @@
+.services-main {
+  padding: 0 1rem;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .general,
+  .cosmetic {
+    p {
+      padding: 1rem;
+    }
+    .general-container,
+    .cosmetic-container {
+      @media (min-width: 60rem) {
+        display: flex;
+        align-items: center;
+        img {
+          width: 50%;
+        }
+        p {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 40rem) {
+    p {
+      width: 80vw;
+      margin: 0 auto;
+    }
+  }
+  @media (min-width: 60rem) {
+    p {
+      width: 70vw;
+    }
+  }
+  .all-services-container {
+    .service {
+    }
+    width: 90%;
+    margin: 0 auto 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 1rem;
+    h3 {
+      background-color: #ff7914;
+      color: white;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      padding: 0.5rem 0.1rem;
+      letter-spacing: 0.115rem;
+      @media (min-width: 42rem) {
+        width: 48%;
+      }
+      @media (min-width: 62rem) {
+        width: 32%;
+      }
+    }
+  }
+}

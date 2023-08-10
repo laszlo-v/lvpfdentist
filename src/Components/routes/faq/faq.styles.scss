@@ -1,0 +1,71 @@
+.container {
+  .faq-main {
+    h1 {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    .accordion-container {
+      @media (min-width: 60rem) {
+        width: 70%;
+        margin: 0 auto;
+      }
+      .accordion {
+        .accordion-head {
+          font-size: clamp(1rem, 2vw + 0.1rem, 1.6rem);
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin: 1rem;
+          padding: 1rem;
+          border: 0.01rem solid grey;
+          border-radius: 0.5rem;
+          &:hover {
+            cursor: pointer;
+          }
+          span {
+            padding: 0 0 0 1rem;
+          }
+          transition: all 0.5s;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          -o-transition: all 0.5s;
+        }
+
+        .accordion-head-active {
+          background-color: rgb(255, 95, 0);
+          color: white;
+          transition: all 0.5s;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          -o-transition: all 0.5s;
+        }
+
+        .accordion-body {
+          margin: 1rem;
+          padding: 1rem;
+          height: 0;
+          opacity: 0;
+          overflow: hidden;
+          transition: height 0.2s, opacity 0.1s;
+          -webkit-transition: height 0.2s, opacity 0.1s;
+          -moz-transition: height 0.2s, opacity 0.1s;
+          -ms-transition: height 0.2s, opacity 0.1s;
+          -o-transition: height 0.2s, opacity 0.1s;
+        }
+
+        .accordion-body-show {
+          height: auto;
+          opacity: 1;
+          transition: height 0.2s, opacity 0.1s;
+          -webkit-transition: height 0.2s, opacity 0.1s;
+          -moz-transition: height 0.2s, opacity 0.1s;
+          -ms-transition: height 0.2s, opacity 0.1s;
+          -o-transition: height 0.2s, opacity 0.1s;
+        }
+      }
+    }
+  }
+}

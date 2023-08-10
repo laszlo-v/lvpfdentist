@@ -1,0 +1,53 @@
+footer {
+  background-color: rgb(34, 34, 34);
+  color: rgb(200, 200, 200);
+  text-align: center;
+  padding: 2rem 0;
+  h4 {
+    a {
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+  }
+  .brand {
+    margin-bottom: 2rem;
+  }
+  p {
+    color: rgb(200, 200, 200);
+  }
+
+  .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    .footer-top-info {
+      display: flex;
+      align-items: center;
+      margin: 0 1rem;
+      div {
+        width: 0.5rem;
+        height: 0.5rem;
+        margin-right: 0.5rem;
+        background-color: green;
+      }
+    }
+  }
+  .footer-links {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer-links img {
+    width: 8rem;
+    height: auto;
+    @media (min-width: 40rem) {
+      margin: 1rem;
+      width: 10rem;
+    }
+  }
+  .pf {
+    margin: 1rem;
+    color: orangered;
+  }
+}
